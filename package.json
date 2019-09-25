@@ -1,0 +1,31 @@
+{
+  "name": "smartdb-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:datas": "rm -rf datas",
+    "start": "npx ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/just-anohaker/smartdb-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/just-anohaker/smartdb-app/issues"
+  },
+  "homepage": "https://github.com/just-anohaker/smartdb-app#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.7",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "pure-framework": "git+https://github.com/just-anohaker/pure-framework.git",
+    "smart-db": "git+https://github.com/just-anohaker/smartdb-ts.git"
+  }
+}

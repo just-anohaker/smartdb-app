@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# ignore datas
+datas/
+.vscode/
+
+#ignore package-lock.json
+package-lock.json
